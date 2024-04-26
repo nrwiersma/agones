@@ -52,6 +52,9 @@ const (
 	// FeaturePlayerTracking is a feature flag to enable/disable player tracking features.
 	FeaturePlayerTracking Feature = "PlayerTracking"
 
+	// FeaturePortRanges is a feature flag to enable/disable specific port ranges.
+	FeaturePortRanges Feature = "PortRanges"
+
 	////////////////
 	// Dev features
 
@@ -102,6 +105,7 @@ var (
 		FeatureGKEAutopilotExtendedDurationPods: false,
 		FeaturePlayerAllocationFilter:           false,
 		FeaturePlayerTracking:                   false,
+		FeaturePortRanges:                       false,
 
 		// Dev features
 
