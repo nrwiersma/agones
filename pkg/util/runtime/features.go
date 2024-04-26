@@ -55,6 +55,9 @@ const (
 	// FeaturePortRanges is a feature flag to enable/disable specific port ranges.
 	FeaturePortRanges Feature = "PortRanges"
 
+	// FeatureRollingUpdateFix is a feature flag to enable/disable fleet controller fixes.
+	FeatureRollingUpdateFix Feature = "RollingUpdateFix"
+
 	////////////////
 	// Dev features
 
@@ -106,6 +109,7 @@ var (
 		FeaturePlayerAllocationFilter:           false,
 		FeaturePlayerTracking:                   false,
 		FeaturePortRanges:                       false,
+		FeatureRollingUpdateFix:                 false,
 
 		// Dev features
 

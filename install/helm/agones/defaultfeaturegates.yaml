@@ -23,6 +23,7 @@ GKEAutopilotExtendedDurationPods: false
 PlayerAllocationFilter: false
 PlayerTracking: false
 PortRanges: false
+RollingUpdateFix: false
 
 # Dev features
 
